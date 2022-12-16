@@ -13,3 +13,18 @@ pip freeze > requirements.txt
 ```
 
 python manage.py startapp api
+
+## run
+
+```bash
+python manage.py runserver
+```
+
+## default superadmin
+
+super / 123456
+
+## view api routes
+
+http://127.0.0.1:8000/api/
+
