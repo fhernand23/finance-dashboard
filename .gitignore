@@ -147,13 +147,16 @@ work/**
 
 frontend/node_modules
 frontend/.pnp
+demo1/node_modules
+demo1/.pnp
 .pnp.js
 
 # testing
 frontend/coverage
 
 # production
-/frontend/build
+frontend/build
+demo1/build
 
 # misc
 .DS_Store
@@ -167,5 +170,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # extra files
-demo1
 demo1_orig
+backend2
